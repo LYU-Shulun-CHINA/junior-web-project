@@ -1,0 +1,10 @@
+/*
+ * Selector 种类：(共 6 种)
+ *
+ * Simple Selector: 通过 元素 (标签) / ID / Class 匹配一个或多个元素
+ * Attribute Selector: 通过 属性 / 属性值 匹配一个或多个元素 img[src]
+ * Pseudo-classes Selector: 匹配 处于特定状态的 一个或多个元素 a:hover
+ *
+ * Other 3... ...
+
+*/
