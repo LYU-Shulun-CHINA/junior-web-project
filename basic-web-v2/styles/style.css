@@ -3,8 +3,16 @@
  *
  * Simple Selector: 通过 元素 (标签) / ID / Class 匹配一个或多个元素
  * Attribute Selector: 通过 属性 / 属性值 匹配一个或多个元素 img[src]
- * Pseudo-classes Selector: 匹配 处于特定状态的 一个或多个元素 a:hover
+ * Pseudo-classes Selector: 匹配 处于特定状态的 一个或多个元素
+ *  * 比如被鼠标指针悬停的元素 a:hover
+ *  * 或当前被选中或未选中的复选框
+ *  * 或元素是 DOM 树中一父节点的第一个子节点
  *
- * Other 3... ...
+ * Pseudo-elements: 匹配处于相关的确定位置的一个或多个元素
+ *  * 例如每个段落的第一个字
+ *  * 或者某个元素之前生成的内容
+ * Combinators: 以有效的方式组合两个或更多的选择器用于非常特定的选择的方法。
+ *  * 例如，你可以只选择divs的直系子节点的段落，或者直接跟在headings后面的段落
+ * Multiple Selector: 通过 , 将一组选择器应用到特定的元素上
 
 */
