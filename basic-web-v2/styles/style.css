@@ -16,3 +16,6 @@
  * Multiple Selector: 通过 , 将一组选择器应用到特定的元素上
 
 */
+p, li { /* simple selector , combinators*/
+    color: red;
+}
