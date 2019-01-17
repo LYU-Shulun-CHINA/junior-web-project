@@ -16,6 +16,19 @@
  * Multiple Selector: 通过 , 将一组选择器应用到特定的元素上
 
 */
+html {
+    font-size: 10px;
+    /* font-family: 'Roboto'; */
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
 p, li { /* simple selector , combinators*/
-    color: red;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
 }
