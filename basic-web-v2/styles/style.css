@@ -16,15 +16,35 @@
  * Multiple Selector: 通过 , 将一组选择器应用到特定的元素上
 
 */
+
+/* 更改页面主题：背景颜色、字体、字号。 */
 html {
-    font-size: 10px;
-    /* font-family: 'Roboto'; */
-    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 16px;
+    font-family: 'ZCOOL XiaoWei', serif; /* font-family: 'Roboto'; */
+    background-color: #00539F; /* 更改页面主题颜色 */
+
 }
 
+/* 解析 body 元素 */
+body {
+    width: 600px; /* 强制页面保持 600px 宽 */
+    margin: 0 auto; /* 0 代表上方和下方；auto 代表左右，意思是保持左右对称。 */
+    background-color: #FF9500; /* 一种略微偏红的橘色以与深蓝色的 <html> 元素形成反差 */
+    padding: 0 20px 20px 20px; /* 设置了上、右、下、左的内边距。 */
+    border: 5px solid black; /* 设置了 5px 实线黑色边框。 */
+}
+
+/* 为页面主标题定位和添加样式。 */
 h1 {
-    font-size: 60px;
-    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: -3px -3px 2px black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
 }
 
 p, li { /* simple selector , combinators*/
