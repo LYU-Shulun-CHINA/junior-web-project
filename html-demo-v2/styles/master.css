@@ -1,0 +1,31 @@
+html { /* 更改页面主题：背景颜色、字体、字号。 */
+    background-color: white;
+    font-family: cursive, serif;
+    font-size: 18px;
+}
+
+body { /* 设置 box model attribute 相关。 */
+    width: 640px;
+    margin: 0 auto;
+    /* padding: 20px 0; */
+    background-color: green;
+    border: 1px solid black;
+}
+
+h1 {
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center; /* 这里要注意 */
+    font-size: 28px;
+    text-shadow: -3px -3px 2px pink;
+    color: red;
+}
+
+p {
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+ul {
+    background-color: red;
+}
