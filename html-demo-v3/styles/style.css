@@ -1,0 +1,17 @@
+html {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    background-color: grey;
+}
+
+body {
+    width: 640px;
+    margin: 0 auto;
+    padding: 20px 0;
+    border: 2px solid red;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
